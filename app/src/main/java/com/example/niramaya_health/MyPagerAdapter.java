@@ -19,6 +19,8 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
                 return new Home_Page();
             case 1:
                 return new Patient_List();
+            case 2:
+                return new Upcoming_appointment();
             default:
                 return null;
         }
@@ -26,6 +28,6 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }
