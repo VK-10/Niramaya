@@ -99,6 +99,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".LabTest"
+            android:exported="true" />
+        <activity
+            android:name=".MedList"
+            android:exported="true" />
     </application>
 
 </manifest>
